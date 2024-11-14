@@ -1,0 +1,47 @@
+// Navigation bar
+nav a {
+    text-decoration: none;
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    &:hover {
+        background-color: $green_logo;
+        color: white;
+    }
+}
+
+// Header Styles
+header {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+header .col-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin: 1rem 0;  
+}
+
+@media (min-width: $breakpoint-mobile) {
+    header {
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+
+    header .col-9 nav {
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        margin: 1rem !important;
+    }
+
+    header .col-9 nav a {
+        padding: 1rem !important;
+    }
+}

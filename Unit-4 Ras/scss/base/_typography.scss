@@ -1,0 +1,44 @@
+// H4 Margins
+#images,
+#buttons,
+#grid {
+    margin: 0 1rem;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#type {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+//Card Section Styles
+// h1 Card section Styles
+h1 {
+    color: $green_logo;
+}
+
+// Link Card section Styles
+.link {
+    color: $blue_logo;
+    text-decoration: none;
+    font-weight: 700;
+    &:hover {
+        color: $green_logo;
+    }
+}
+
+// Paragraph Card section Styles
+p {
+    line-height: 1.5;
+}
+
+// Blockquote Card section Styles
+.blockquote {
+    font-style: italic;
+    color: $secondary_color;
+    border-left: 5px solid $green_logo;
+    padding-left: 1rem;
+    line-height: 1.2;
+    font-size: 1.3rem;
+}

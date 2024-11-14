@@ -1,0 +1,36 @@
+//Form Styles
+.col-4 > .form {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+.form img {
+    margin: 2rem 0;
+    width: 45%;
+    align-self: center;
+}
+
+// Legend Styles
+legend {
+    font-size: 18px;
+}
+
+// Label Styles
+
+form .hidden {
+    display: none;
+}
+
+// Input Styles
+
+.input {
+    @include input-styles;
+}
+
+// Form Button Styles
+
+.form button {
+    @include buttons;
+    background-color: $blue_logo;
+}

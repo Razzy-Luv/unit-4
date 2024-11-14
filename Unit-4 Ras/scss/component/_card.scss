@@ -1,0 +1,13 @@
+
+
+
+@media (min-width: $breakpoint-mobile) {
+    .col-8 > .card {
+        margin-right: 2rem;
+    }
+    
+    .col-4 > .form {
+        margin: 2rem 0;
+        min-width: 300px;
+    }
+}

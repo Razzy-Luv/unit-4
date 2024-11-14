@@ -1,0 +1,25 @@
+// Universal styles for the project
+*,
+*::before,
+*::after  {
+    color: $base_color;
+    font-family: $main-font;
+    box-sizing: border-box;
+}
+
+// row styles Mobile
+.row {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+}
+
+// row styles Desktop
+@media screen and (min-width: $breakpoint-mobile) {
+    .row {
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 100%;
+    }
+    
+}

@@ -1,0 +1,33 @@
+// Grid Styles
+.theme {
+    display: flex;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    margin: .2rem 0;
+    align-items: center;
+    padding-left: 1rem;
+    &:hover {   
+        transform: scale(1.03);
+        opacity: 0.8;
+    }
+}
+// Grid Colors
+@include grid-colors;
+
+// Grid Styles Desktop
+@media screen and (min-width: $breakpoint-mobile) {
+    @include grid-sizes;
+    .theme {
+        margin: 0 .5rem;
+    }
+
+    .centered {
+        justify-content: center;
+    }
+
+    .row .centered {
+        align-items: center;
+        margin: auto;
+    }
+}
