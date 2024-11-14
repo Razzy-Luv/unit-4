@@ -1,0 +1,29 @@
+/* ----------------------------------- */
+// VARIABLES
+/* ----------------------------------- */
+
+// Fonts
+$main-font: 'lato', sans-serif;
+
+
+// Base Colors
+$green_logo: #20df7c;
+$blue_logo: #0bc3f1;
+$base_color: rgb(128, 128, 128);
+$secondary_color: darkslategray;
+
+
+// Button Colors
+$button-default: $blue_logo;
+
+$button-error: rgb(255, 124, 124);
+
+$button-info: rgb(138, 97, 158);
+
+$button-success: $green_logo;
+
+$button-warning: orange;
+
+
+// Media Queries
+$breakpoint-mobile: 768px;

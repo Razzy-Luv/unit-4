@@ -1,0 +1,16 @@
+/* ----------------------------------- */
+// Card
+/* ----------------------------------- */
+
+ @media screen and (min-width: $breakpoint-mobile) {
+    //2nd card section
+    .row .col-8 {
+        flex: 1;
+        margin: auto;
+    }
+
+    .row .col-4 {
+        flex: 1;
+        margin: auto;
+    }
+}

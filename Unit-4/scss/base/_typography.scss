@@ -1,0 +1,33 @@
+/*-----------------------------------------------*/
+// Typography
+/*-----------------------------------------------*/ 
+
+   
+.link {
+    color: $green_logo;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: $blue_logo;
+    font-weight: bold;
+}
+
+blockquote {
+    font-style: italic;
+    color: $secondary_color;
+    border-left: 8px solid $blue_logo;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+
+h1 {
+    color: $blue_logo;
+    text-align: center;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 1.1rem;
+}

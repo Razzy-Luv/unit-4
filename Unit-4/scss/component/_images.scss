@@ -1,0 +1,48 @@
+/* ----------------------------------- */
+// Image Styles
+/* ----------------------------------- */
+.col-6 .img-frame {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    margin: auto; 
+    width: 80%;
+    margin-bottom: 1rem;
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+.col-6 .img-avatar {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    margin: auto; 
+    width: 50%;
+    margin-bottom: 1rem;
+    padding: 20px;
+}
+
+
+@media screen and (min-width: $breakpoint-mobile) {
+    .row:nth-of-type(3) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        gap: 1rem;
+      }
+      
+    .col-6 .img-frame {
+      width: 100%;
+      margin: auto;
+    }
+
+    .col-6 .img-avatar {
+        width: 100%;
+        margin: auto;
+    }
+}
+  

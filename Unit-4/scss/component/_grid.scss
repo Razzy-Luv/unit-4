@@ -1,0 +1,26 @@
+/* ------------------------------------ */
+// Grid
+/* ------------------------------------ */
+
+
+@include grid-phone-size;
+@include grid-colors;
+.col-12.theme, .col-6.theme, .col-4.theme, .col-3.theme, .col-7.theme, .col-8.theme, .col-5.theme {
+    margin-bottom: .3rem;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
+
+@media screen and (min-width: $breakpoint-mobile) {
+    @include grid-layout;
+    .col-12.theme, .col-6.theme, .col-4.theme, .col-3.theme, .col-7.theme, .col-8.theme, .col-5.theme {
+        margin: 1rem;
+        width: 100%;
+        border-radius: 5px;
+    }
+    @include grid-tablet-size;
+}
